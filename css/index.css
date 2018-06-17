@@ -1131,6 +1131,7 @@ footer {
   padding-top: 15px; }
 
 /*-----------------------End List Product --------------------*/
+/*-----------------------Begin Product Detail--------------------*/
 /*-----------------------Begin media screen --------------------*/
 @media (max-width: 1023px) {
   .feature-product-wrapp a.wrapper-link img {

@@ -19,7 +19,7 @@
             minItems: 2,
             maxItems: 4,
             move: 1,
-            slideshowSpeed: 1000,
+            slideshowSpeed: 5000,
             controlNav: false,
             pauseOnAction: true,
             pauseOnHover: true,

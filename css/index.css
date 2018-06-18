@@ -1244,7 +1244,7 @@ footer {
   .product-detail-page .col-ssm-7.col-right .product-name {
     font-weight: bold;
     font-size: 18px;
-    margin: 15px 0 10px; }
+    margin: 10px 0 3px; }
   .product-detail-page .col-ssm-7.col-right .product-size {
     background: url(../images/i13.gif) no-repeat left center;
     height: 16px;
@@ -1319,6 +1319,92 @@ footer {
       text-transform: uppercase; }
     .product-detail-page .col-ssm-7.col-right .promotion .price, .product-detail-page .col-ssm-7.col-right .promotion .hot {
       color: #ff0000; }
+  .product-detail-page .col-ssm-7.col-right .buy-now {
+    width: 158px;
+    height: 48px;
+    text-align: center;
+    background: url(../images/g1.gif) repeat-x left top;
+    margin-right: 20px;
+    color: #333;
+    border-radius: 6px;
+    cursor: pointer; }
+    .product-detail-page .col-ssm-7.col-right .buy-now span {
+      font-size: 11px; }
+    .product-detail-page .col-ssm-7.col-right .buy-now .title {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-top: 11px; }
+  .product-detail-page .col-ssm-7.col-right .buy-online {
+    width: 158px;
+    height: 48px;
+    text-align: center;
+    background: url(../images/g2.gif) repeat-x left top;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer; }
+    .product-detail-page .col-ssm-7.col-right .buy-online span {
+      font-size: 11px; }
+    .product-detail-page .col-ssm-7.col-right .buy-online .title {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-top: 11px; }
+  .product-detail-page .col-ssm-7.col-right .appointment {
+    width: 178px;
+    height: 48px;
+    text-align: center;
+    background: url(../images/g3.gif) repeat-x left top;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer; }
+    .product-detail-page .col-ssm-7.col-right .appointment span {
+      font-size: 11px; }
+    .product-detail-page .col-ssm-7.col-right .appointment .title {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-top: 11px; }
+  .product-detail-page .col-ssm-7.col-right .row.more-actions {
+    margin: 10px 0; }
+  .product-detail-page .col-ssm-7.col-right .working-hours {
+    margin-bottom: 12px;
+    width: 67%;
+    float: right;
+    padding-left: 20px;
+    background: url(../images/z.png) no-repeat left center; }
+  .product-detail-page .col-ssm-7.col-right .store-addresses {
+    padding: 0 0 0 105px;
+    background: url(../images/g11.gif) repeat-y center top;
+    height: 95px;
+    position: relative; }
+    .product-detail-page .col-ssm-7.col-right .store-addresses:before {
+      content: '';
+      position: absolute;
+      width: 128px;
+      height: 128px;
+      bottom: 0;
+      left: -15px;
+      background: url(../images/qt.png) no-repeat left top;
+      visibility: visible; }
+    .product-detail-page .col-ssm-7.col-right .store-addresses .sub-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 8px 0px;
+      position: relative; }
+      .product-detail-page .col-ssm-7.col-right .store-addresses .sub-title:before {
+        content: '';
+        width: 35px;
+        height: 1px;
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        background: #F36E67; }
+    .product-detail-page .col-ssm-7.col-right .store-addresses li span {
+      font-weight: bold; }
 
 /*-----------------------End Product Detail--------------------*/
 /*-----------------------Begin media screen --------------------*/

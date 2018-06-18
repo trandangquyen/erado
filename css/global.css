@@ -144,6 +144,9 @@ summary {
 * {
   box-sizing: border-box; }
 
+*:focus {
+  outline: 0 !important; }
+
 body {
   font-family: Helvetica, Roboto, arial, sans-serif;
   font-size: 1.2em;

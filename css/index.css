@@ -1294,18 +1294,17 @@ footer {
       padding: 0 0 5px 30px;
       position: relative; }
     .product-detail-page .col-ssm-7.col-right .row.promotion-wr .col-ssm-4 li.directions {
-      background: url(../images/y.png) no-repeat 5px center; }
+      background: url(../images/y.png) no-repeat 5px 3px; }
     .product-detail-page .col-ssm-7.col-right .row.promotion-wr .col-ssm-4 li.shopping-guide {
-      background: url(../images/h.png) no-repeat 5px center; }
+      background: url(../images/h.png) no-repeat 5px 3px; }
     .product-detail-page .col-ssm-7.col-right .row.promotion-wr .col-ssm-4 li.delivery {
-      background: url(../images/g.png) no-repeat 5px center; }
+      background: url(../images/g.png) no-repeat 5px 3px; }
   .product-detail-page .col-ssm-7.col-right .promotion {
-    width: 340px;
     height: 67px;
     border: solid 1px #3caea6;
     border-radius: 5px;
     margin-top: -6px;
-    padding: 7px 10px 10px 10px; }
+    padding: 7px 0 10px 10px; }
     .product-detail-page .col-ssm-7.col-right .promotion .promo-title {
       width: 140px;
       height: 28px;
@@ -1317,6 +1316,8 @@ footer {
       font-size: 14px;
       font-weight: 500;
       text-transform: uppercase; }
+    .product-detail-page .col-ssm-7.col-right .promotion .price, .product-detail-page .col-ssm-7.col-right .promotion .hot {
+      color: #ff0000; }
 
 /*-----------------------End Product Detail--------------------*/
 /*-----------------------Begin media screen --------------------*/

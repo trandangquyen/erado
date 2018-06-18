@@ -1210,7 +1210,8 @@ footer {
 .product-detail-page .ribbon-wrapper {
   position: absolute;
   width: 100%;
-  top: -35px; }
+  top: -35px;
+  left: 0; }
   .product-detail-page .ribbon-wrapper strong {
     font-weight: bold; }
   .product-detail-page .ribbon-wrapper .col-ssm-7 {

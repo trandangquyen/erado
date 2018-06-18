@@ -429,7 +429,8 @@ a {
 .section5.promotions-reviews {
   background-color: #f4f4f4;
   height: 445px;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 15px; }
   .section5.promotions-reviews .promotion-title, .section5.promotions-reviews .reviews-title {
     font-size: 20px;
     text-transform: uppercase;
@@ -1568,6 +1569,32 @@ footer {
     margin: 10px 0 10px; }
     .product-detail-page .product-description .feedback img {
       width: 100%; }
+  .product-detail-page .product-description .bottom-small-banner {
+    margin-bottom: 50px;
+    display: block;
+    line-height: 1; }
+  .product-detail-page .product-description .fb-share-bt {
+    display: block;
+    float: right;
+    width: 245px;
+    height: 50px; }
+  .product-detail-page .product-description .facebook-sharing {
+    position: relative;
+    border: solid 1px #ddd;
+    background: #f2f2f2 url(../images/f.gif) no-repeat 245px center;
+    height: 80px; }
+    .product-detail-page .product-description .facebook-sharing .fb_iframe_widget {
+      display: inline-block;
+      position: relative;
+      margin-top: 10px; }
+    .product-detail-page .product-description .facebook-sharing:before {
+      content: '';
+      position: absolute;
+      width: 100px;
+      height: 120px;
+      background: url(../images/ds.png) left top no-repeat;
+      bottom: 0;
+      left: 150px; }
 
 .online-support h2 {
   background: #fa3e3f;

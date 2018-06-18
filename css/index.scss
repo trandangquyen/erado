@@ -570,6 +570,7 @@ a {
     background-color: #f4f4f4;
     height: 445px;
     overflow: hidden;
+    padding-top: 15px;
     .promotion-title,.reviews-title{
     	font-size: 20px;
 	    text-transform: uppercase;
@@ -2055,6 +2056,37 @@ footer{
             margin: 10px 0 10px;
             img{
                 width: 100%;
+            }
+        }
+        .bottom-small-banner{
+            margin-bottom: 50px;
+            display: block;
+            line-height: 1;
+        }
+        .fb-share-bt{
+            display: block;
+            float: right;
+            width: 245px;
+            height: 50px;
+        }
+        .facebook-sharing{
+            position: relative;
+            border: solid 1px #ddd;
+            background: #f2f2f2 url(../images/f.gif) no-repeat 245px center;
+            height: 80px;
+            .fb_iframe_widget{
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 120px;
+                background: url(../images/ds.png) left top no-repeat;
+                bottom: 0;
+                left: 150px;
             }
         }
     }

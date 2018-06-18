@@ -21,7 +21,7 @@
 					<div class="col-md-4 face-book-link">
 						<ul class="clearfix">
 							<li class="famous-people"><a href="">Người nổi tiếng chọn Erado</a></li>
-							<li class="facebook-like"><div class="fb-like fb_iframe_widget" data-send="false" data-layout="button_count" data-width="30" data-show-faces="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=558707871150274&amp;container_width=115&amp;href=http%3A%2F%2Ferado.vn%2F&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=30"><span style="vertical-align: bottom; width: 82px; height: 20px;"><iframe name="f318371bc76a44" width="30px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/like.php?app_id=558707871150274&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FmAiQUwlReIP.js%3Fversion%3D42%23cb%3Df1e4d2e3992be1c%26domain%3Derado.vn%26origin%3Dhttp%253A%252F%252Ferado.vn%252Ffc43623d7f97c%26relation%3Dparent.parent&amp;container_width=115&amp;href=http%3A%2F%2Ferado.vn%2F&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=30" style="border: none; visibility: visible; width: 82px; height: 20px;" class=""></iframe></span></div></li>
+							<li class="facebook-like"><script type="text/javascript">document.write('<div class="fb-like" data-send="false" data-layout="button_count" data-width="30" data-show-faces="false"></div>');</script></li>
 						</ul>
 					</div>
 					<div class="col-md-6 about-us-info">
@@ -1061,7 +1061,13 @@
 
 </div>
 
-
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.11&appId=558707871150274';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- End Header -->
 

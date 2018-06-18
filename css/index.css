@@ -1429,19 +1429,17 @@ footer {
       background: #ED4137;
       bottom: -5px;
       left: 0; }
-  .product-detail-page .best-selling-products.slider-product .feature-product-wrapp {
-    padding: 0 15px; }
-    .product-detail-page .best-selling-products.slider-product .feature-product-wrapp .feature-price-real {
-      float: left;
-      margin-bottom: 8px; }
-    .product-detail-page .best-selling-products.slider-product .feature-product-wrapp:hover .buy-now a {
-      background: #ff0000;
-      text-decoration: none;
-      color: #fff; }
-    .product-detail-page .best-selling-products.slider-product .feature-product-wrapp a.wrapper-link {
+  .product-detail-page .best-selling-products.slider-product .feature-product-wrapp .feature-price-real {
+    float: left;
+    margin-bottom: 8px; }
+  .product-detail-page .best-selling-products.slider-product .feature-product-wrapp:hover .buy-now a {
+    background: #ff0000;
+    text-decoration: none;
+    color: #fff; }
+  .product-detail-page .best-selling-products.slider-product .feature-product-wrapp a.wrapper-link {
+    border: none; }
+    .product-detail-page .best-selling-products.slider-product .feature-product-wrapp a.wrapper-link img {
       border: none; }
-      .product-detail-page .best-selling-products.slider-product .feature-product-wrapp a.wrapper-link img {
-        border: none; }
   .product-detail-page .best-selling-products.slider-product .buy-now a {
     display: block;
     height: 23.5px;
@@ -1455,6 +1453,60 @@ footer {
     line-height: 23.5px; }
     .product-detail-page .best-selling-products.slider-product .buy-now a:hover {
       text-decoration: underline !important; }
+  .product-detail-page .best-selling-products.slider-product .flex-direction-nav a {
+    opacity: 1;
+    width: 34px;
+    height: 34px; }
+  .product-detail-page .best-selling-products.slider-product .flexslider:hover .flex-direction-nav .flex-prev {
+    left: -50px; }
+  .product-detail-page .best-selling-products.slider-product .flexslider:hover .flex-direction-nav .flex-next {
+    right: -50px; }
+  .product-detail-page .best-selling-products.slider-product .flexslider .flex-direction-nav .flex-prev:before {
+    content: '';
+    background: url(../images/l.png) left top no-repeat;
+    width: 34px;
+    height: 34px; }
+  .product-detail-page .best-selling-products.slider-product .flexslider .flex-direction-nav .flex-next:before {
+    content: '';
+    background: url(../images/r.png) left top no-repeat;
+    width: 34px;
+    height: 34px; }
+.product-detail-page .product-description {
+  padding-top: 35px; }
+  .product-detail-page .product-description .tab-links li.active {
+    background-color: #ee4238; }
+  .product-detail-page .product-description .tab-links li {
+    background: #404042;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    padding: 0 6px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .product-detail-page .product-description .tab-links li.promo {
+    padding-left: 30px;
+    background: #404042 url(../images/i.png) 7px center no-repeat; }
+  .product-detail-page .product-description .tab-links li.active.promo {
+    background: #ee4238 url(../images/i.png) 7px center no-repeat; }
+  .product-detail-page .product-description .tab-links li.free-delivery {
+    padding-left: 40px;
+    margin-right: 0;
+    background: #404042 url(../images/k.png) 5px center no-repeat; }
+  .product-detail-page .product-description .tab-links li.free-delivery.active {
+    background: #ee4238 url(../images/k.png) 5px center no-repeat; }
+  .product-detail-page .product-description .tab-contents {
+    border: solid 1px #ededed;
+    border-top: none;
+    padding: 0px 9px; }
+    .product-detail-page .product-description .tab-contents > li {
+      display: none; }
+    .product-detail-page .product-description .tab-contents > li.show {
+      display: block; }
 
 /*-----------------------End Product Detail--------------------*/
 /*-----------------------Begin media screen --------------------*/

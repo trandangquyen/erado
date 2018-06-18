@@ -1864,7 +1864,7 @@ footer{
             }
         }
         .feature-product-wrapp{
-            padding: 0 15px;
+//            padding: 0 15px;
             .feature-price-real{
                 float: left;
                 margin-bottom: 8px;
@@ -1903,6 +1903,91 @@ footer{
                 }
             }
             
+        }
+        .flex-direction-nav{
+            a{
+                opacity: 1;
+                width: 34px;
+                height: 34px;
+            }
+            
+        }
+        .flexslider{
+            &:hover{
+                .flex-direction-nav .flex-prev{
+                    left: -50px;
+                    
+                }
+                .flex-direction-nav .flex-next{
+                    right: -50px;
+                }
+            }
+        }
+        .flexslider{
+            .flex-direction-nav .flex-prev{
+                &:before{
+                    content: '';
+                    background: url(../images/l.png) left top no-repeat;
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+            .flex-direction-nav .flex-next{
+                &:before{
+                    content: '';
+                    background: url(../images/r.png) left top no-repeat;
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+        }
+    }
+    .product-description{
+        padding-top: 35px;
+        .tab-links{
+            li.active{
+                background-color: #ee4238;
+            }
+            li{
+                background: #404042;
+                color: #fff;
+                font-weight: bold;
+                font-size: 14px;
+                display: inline-block;
+                height: 36px;
+                line-height: 36px;
+                float: left;
+                padding: 0 6px;
+                margin-right: 5px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            li.promo{
+                padding-left: 30px;
+                background: #404042 url(../images/i.png) 7px center no-repeat;
+            }
+            li.active.promo{
+                background: #ee4238 url(../images/i.png) 7px center no-repeat;
+            }
+            li.free-delivery{
+                padding-left: 40px;
+                margin-right: 0;
+                background: #404042 url(../images/k.png) 5px center no-repeat;
+            }
+            li.free-delivery.active{
+                background: #ee4238 url(../images/k.png) 5px center no-repeat;
+            }
+        }
+        .tab-contents{
+            border: solid 1px #ededed;
+            border-top: none;
+            padding: 0px 9px;
+            >li{
+                display: none;
+            }
+            >li.show{
+                display: block;
+            }
         }
     }
     

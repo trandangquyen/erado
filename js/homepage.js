@@ -15,14 +15,15 @@
             animation: "slide",
             animationLoop: true,
             itemWidth: 210,
-            itemMargin: 5,
+            itemMargin: 25,
             minItems: 2,
             maxItems: 4,
             move: 1,
             slideshowSpeed: 1000,
             controlNav: false,
-            pauseOnAction: false,
-            pauseOnHover: true
+            pauseOnAction: true,
+            pauseOnHover: true,
+            drag: true
           });
         $('#product-list-slider').flexslider({
             animation: "slide",

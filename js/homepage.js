@@ -25,6 +25,20 @@
             pauseOnHover: true,
             drag: true
           });
+        $('#viewed-product-slider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            itemWidth: 208,
+            itemMargin: 30,
+            minItems: 1,
+            maxItems: 3,
+            move: 1,
+            slideshowSpeed: 5000,
+            controlNav: false,
+            pauseOnAction: true,
+            pauseOnHover: true,
+            drag: true
+          });
         $('#product-list-slider').flexslider({
             animation: "slide",
             directionNav: false,

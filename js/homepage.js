@@ -30,7 +30,7 @@
             animationLoop: true,
             itemWidth: 208,
             itemMargin: 30,
-            minItems: 1,
+            minItems: 2,
             maxItems: 3,
             move: 1,
             slideshowSpeed: 5000,

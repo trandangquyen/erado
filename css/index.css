@@ -874,40 +874,40 @@ footer {
   z-index: 99; }
 
 /*-----------------------Begin List Product --------------------*/
-.products-list-page .section1.slider {
+.listing-page-wrapper .section1.slider {
   margin: 15px 0; }
-.products-list-page .featured-category {
+.listing-page-wrapper .featured-category {
   margin-top: 50px; }
-  .products-list-page .featured-category .col-md-4 {
+  .listing-page-wrapper .featured-category .col-md-4 {
     padding: 0 10px;
     margin-bottom: 10px; }
-.products-list-page ul.pagination {
+.listing-page-wrapper ul.pagination {
   margin-bottom: 20px; }
-  .products-list-page ul.pagination li {
+  .listing-page-wrapper ul.pagination li {
     text-align: center;
     float: left;
     margin-left: 3px; }
-    .products-list-page ul.pagination li a {
+    .listing-page-wrapper ul.pagination li a {
       width: 26px;
       height: 20px;
       line-height: 20px;
       display: inline-block;
       background: #F4F4F4; }
-      .products-list-page ul.pagination li a:hover {
+      .listing-page-wrapper ul.pagination li a:hover {
         text-decoration: none;
         background: #FFFF00;
         color: #ff0000; }
-    .products-list-page ul.pagination li a.next, .products-list-page ul.pagination li a.previous {
+    .listing-page-wrapper ul.pagination li a.next, .listing-page-wrapper ul.pagination li a.previous {
       width: 46px;
       padding: 0 3px; }
-  .products-list-page ul.pagination li.active {
+  .listing-page-wrapper ul.pagination li.active {
     margin-left: 0; }
-    .products-list-page ul.pagination li.active a {
+    .listing-page-wrapper ul.pagination li.active a {
       background: #FFFF00;
       color: #ff0000; }
-.products-list-page .col-left-pr {
+.listing-page-wrapper .col-left-pr {
   padding-right: 20px; }
-  .products-list-page .col-left-pr h2 {
+  .listing-page-wrapper .col-left-pr h2 {
     background: #fa3e3f;
     height: 36px;
     line-height: 36px;
@@ -916,22 +916,28 @@ footer {
     font-size: 14px;
     text-transform: uppercase;
     color: #fff; }
-    .products-list-page .col-left-pr h2:before {
+    .listing-page-wrapper .col-left-pr h2:before {
       content: '';
       position: absolute;
       width: 36px;
       height: 36px; }
-  .products-list-page .col-left-pr h2.product-type-title {
+  .listing-page-wrapper .col-left-pr h2.product-type-title {
     margin-bottom: 5px; }
-    .products-list-page .col-left-pr h2.product-type-title:before {
+    .listing-page-wrapper .col-left-pr h2.product-type-title:before {
       background: #414143 url(../images/l1.gif) center no-repeat;
       left: 0;
       top: 0; }
-  .products-list-page .col-left-pr h2.price-ranges-tile:before {
+  .listing-page-wrapper .col-left-pr h2.latest-news-title {
+    margin-bottom: 5px; }
+    .listing-page-wrapper .col-left-pr h2.latest-news-title:before {
+      background: #414143 url(../images/l1.gif) center no-repeat;
+      left: 0;
+      top: 0; }
+  .listing-page-wrapper .col-left-pr h2.price-ranges-tile:before {
     background: #414143 url(../images/l1.gif) center no-repeat;
     left: 0;
     top: 0; }
-  .products-list-page .col-left-pr .product-type li {
+  .listing-page-wrapper .col-left-pr .product-type li {
     font-size: 15px;
     overflow: hidden;
     padding: 6px 6px 6px 30px;
@@ -940,20 +946,20 @@ footer {
     border-bottom: solid 2px #c8c8c8;
     border-radius: 3px;
     background: #f5f5f5 url(../images/b12.gif) no-repeat 10px center; }
-    .products-list-page .col-left-pr .product-type li a {
+    .listing-page-wrapper .col-left-pr .product-type li a {
       display: block;
       height: 24px;
       line-height: 24px; }
-    .products-list-page .col-left-pr .product-type li:hover a {
+    .listing-page-wrapper .col-left-pr .product-type li:hover a {
       color: #ff0000; }
-  .products-list-page .col-left-pr .price-ranges ul {
+  .listing-page-wrapper .col-left-pr .price-ranges ul {
     border-left: solid 1px #f2f2f2;
     border-right: solid 1px #f2f2f2;
     border-top: solid 1px #f2f2f2;
     border-bottom: solid 2px #c8c8c8;
     margin-bottom: 10px;
     padding-top: 10px; }
-    .products-list-page .col-left-pr .price-ranges ul li {
+    .listing-page-wrapper .col-left-pr .price-ranges ul li {
       height: 18px;
       line-height: 18px;
       overflow: hidden;
@@ -962,37 +968,37 @@ footer {
       font-weight: bold;
       margin-bottom: 10px;
       font-size: 13px; }
-      .products-list-page .col-left-pr .price-ranges ul li:hover {
+      .listing-page-wrapper .col-left-pr .price-ranges ul li:hover {
         background: url(../images/gb.gif) no-repeat 10px center; }
-        .products-list-page .col-left-pr .price-ranges ul li:hover a {
+        .listing-page-wrapper .col-left-pr .price-ranges ul li:hover a {
           color: #ff0000; }
-  .products-list-page .col-left-pr h2.price-ranges-tile:before {
+  .listing-page-wrapper .col-left-pr h2.price-ranges-tile:before {
     background: #414143 url(../images/l1.gif) center no-repeat;
     left: 0;
     top: 0; }
-  .products-list-page .col-left-pr .related-news ul {
+  .listing-page-wrapper .col-left-pr .related-news ul {
     margin-bottom: 10px;
     border-bottom: solid 1px #dcdddf;
     padding-bottom: 5px; }
-  .products-list-page .col-left-pr .related-news h2 {
+  .listing-page-wrapper .col-left-pr .related-news h2 {
     height: 30px;
     line-height: 30px;
     padding-left: 10px;
     background: #EC2127; }
-    .products-list-page .col-left-pr .related-news h2:before {
+    .listing-page-wrapper .col-left-pr .related-news h2:before {
       content: initial; }
-  .products-list-page .col-left-pr .related-news li {
+  .listing-page-wrapper .col-left-pr .related-news li {
     clear: both;
     margin-bottom: 10px; }
-    .products-list-page .col-left-pr .related-news li img {
+    .listing-page-wrapper .col-left-pr .related-news li img {
       width: 80px;
       height: 60px;
       overflow: hidden;
       float: left;
       margin-right: 6px; }
-    .products-list-page .col-left-pr .related-news li .summary-content {
+    .listing-page-wrapper .col-left-pr .related-news li .summary-content {
       font-weight: bold; }
-.products-list-page .bread-crumb-cat ul {
+.listing-page-wrapper .bread-crumb-cat ul {
   height: 32px;
   overflow: hidden;
   background-color: #f5f5f5;
@@ -1002,7 +1008,7 @@ footer {
   border-bottom: solid 1px #e6e6e6;
   margin-bottom: 15px;
   margin-top: 1px; }
-  .products-list-page .bread-crumb-cat ul li {
+  .listing-page-wrapper .bread-crumb-cat ul li {
     float: left;
     line-height: 32px;
     padding-left: 30px;
@@ -1010,7 +1016,7 @@ footer {
     font-weight: bold;
     height: 32px;
     position: relative; }
-    .products-list-page .bread-crumb-cat ul li:before {
+    .listing-page-wrapper .bread-crumb-cat ul li:before {
       position: absolute;
       content: '';
       width: 12px;
@@ -1018,26 +1024,26 @@ footer {
       background: url(../images/g8.gif) no-repeat left top;
       left: 0;
       top: 0; }
-    .products-list-page .bread-crumb-cat ul li:first-child {
+    .listing-page-wrapper .bread-crumb-cat ul li:first-child {
       padding-left: 0;
       padding-right: 0;
       background: url(../images/home.gif) no-repeat center center; }
-      .products-list-page .bread-crumb-cat ul li:first-child:before {
+      .listing-page-wrapper .bread-crumb-cat ul li:first-child:before {
         content: initial; }
-      .products-list-page .bread-crumb-cat ul li:first-child a {
+      .listing-page-wrapper .bread-crumb-cat ul li:first-child a {
         text-indent: -9999px;
         padding-left: 0px;
         width: 60px;
         display: inline-block; }
-    .products-list-page .bread-crumb-cat ul li a:hover {
+    .listing-page-wrapper .bread-crumb-cat ul li a:hover {
       color: #ff0000; }
-.products-list-page .col-right-pr .general-introduction {
+.listing-page-wrapper .col-right-pr .general-introduction {
   font-size: 18px;
   color: #333;
   font-weight: bold;
   position: relative;
   margin-bottom: 20px; }
-  .products-list-page .col-right-pr .general-introduction:before {
+  .listing-page-wrapper .col-right-pr .general-introduction:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -1045,31 +1051,31 @@ footer {
     background: #E5E5E7;
     bottom: -4px;
     left: 0; }
-  .products-list-page .col-right-pr .general-introduction:after {
+  .listing-page-wrapper .col-right-pr .general-introduction:after {
     content: '';
     position: absolute;
-    width: 9%;
-    height: 3px;
+    width: 15%;
+    height: 2px;
     background: #ED4137;
-    bottom: -5px;
+    bottom: -4px;
     left: 0; }
-.products-list-page .col-right-pr .cont-description {
+.listing-page-wrapper .col-right-pr .cont-description {
   font-size: 16px;
   font-family: 'Times New Roman';
   margin-bottom: 60px; }
-  .products-list-page .col-right-pr .cont-description i {
+  .listing-page-wrapper .col-right-pr .cont-description i {
     font-style: italic; }
-.products-list-page .col-right-pr .category-banner {
+.listing-page-wrapper .col-right-pr .category-banner {
   margin: 10px 0 20px; }
-.products-list-page .col-right-pr h5 {
+.listing-page-wrapper .col-right-pr h5 {
   font-size: 18px;
   color: #ff0000;
   font-weight: bold; }
-.products-list-page .col-right-pr ul.list-choice li {
+.listing-page-wrapper .col-right-pr ul.list-choice li {
   padding-left: 10px;
   position: relative;
   display: list-item; }
-  .products-list-page .col-right-pr ul.list-choice li:before {
+  .listing-page-wrapper .col-right-pr ul.list-choice li:before {
     width: 4px;
     height: 4px;
     background: #000;
@@ -1078,7 +1084,7 @@ footer {
     position: absolute;
     left: 0;
     top: 12px; }
-.products-list-page .section5.promotions-reviews {
+.listing-page-wrapper .section5.promotions-reviews {
   height: 460px;
   padding-top: 15px; }
 
@@ -1784,6 +1790,66 @@ ul.pagination {
     padding-left: 5px; }
 
 /*-----------------------End Product Detail--------------------*/
+/*-----------------------Begin News Page--------------------*/
+.news-page .news-content-wrapper {
+  margin-left: -10px;
+  margin-right: -10px; }
+  .news-page .news-content-wrapper .news-item-wr {
+    margin: 0 10px 20px;
+    border: solid 1px #e6e8e7;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px; }
+    .news-page .news-content-wrapper .news-item-wr:hover {
+      border: solid 1px #ffe651; }
+    .news-page .news-content-wrapper .news-item-wr .news-image {
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px; }
+    .news-page .news-content-wrapper .news-item-wr .news-view-more {
+      display: block;
+      line-height: 30px;
+      border-bottom: solid 1px #cacbcf;
+      text-align: center;
+      background: #f2f2f2 url(../images/l4.gif) no-repeat 158px center;
+      font-weight: bold;
+      position: relative;
+      top: 1px; }
+      .news-page .news-content-wrapper .news-item-wr .news-view-more:hover {
+        color: #ff0000; }
+    .news-page .news-content-wrapper .news-item-wr .news-title {
+      color: #4f4f4f;
+      display: block;
+      line-height: 16px;
+      font-size: 12px;
+      font-weight: bold;
+      height: 32px;
+      overflow: hidden;
+      text-align: center;
+      margin-top: 10px;
+      padding: 0px 10px;
+      margin-bottom: 5px; }
+      .news-page .news-content-wrapper .news-item-wr .news-title:hover {
+        color: #ff0000; }
+    .news-page .news-content-wrapper .news-item-wr .line-separator {
+      display: block;
+      width: 40px;
+      height: 2px;
+      background-color: #ef4136;
+      margin: 0 auto;
+      overflow: hidden; }
+    .news-page .news-content-wrapper .news-item-wr .short-description {
+      display: block;
+      line-height: 16px;
+      height: 42px;
+      overflow: hidden;
+      text-align: justify;
+      color: #666;
+      padding: 10px 10px 0px 10px;
+      margin-bottom: 10px; }
+    .news-page .news-content-wrapper .news-item-wr:hover .news-view-more {
+      background: #ffde17 url(../images/l3.gif) no-repeat 158px center;
+      border-bottom: solid 1px #fdcd15; }
+
+/*-----------------------End News Page----------------------*/
 /*-----------------------Begin media screen --------------------*/
 @media (max-width: 1023px) {
   .feature-product-wrapp a.wrapper-link img {

@@ -3158,6 +3158,22 @@ footer{
         }
         
     }
+    .listing-page-wrapper{
+        .col-left-pr{
+            display: none;
+        }
+    }
+    .news-content-wrapper .news-item-wr .news-image{
+        width: 100%;
+    }
+    .news-main-content{
+        img{
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
     
 }
 

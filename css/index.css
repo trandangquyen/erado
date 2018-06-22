@@ -2381,7 +2381,19 @@ ul.pagination {
   .product-detail-page .product-description .tab-links {
     display: none; }
   .product-detail-page .product-description .col-ssm-3 {
-    display: none; } }
+    display: none; }
+
+  .listing-page-wrapper .col-left-pr {
+    display: none; }
+
+  .news-content-wrapper .news-item-wr .news-image {
+    width: 100%; }
+
+  .news-main-content img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto; } }
 @media (max-width: 767px) {
   #header .top-nav {
     display: none; }

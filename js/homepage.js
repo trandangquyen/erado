@@ -104,19 +104,16 @@
             var parent = this;
             var destroy = selfDestroy || true;
 
-            parent.click(function() {
+            parent.on("click touchstart",function() {
                 clicked = true;
             });
 
-            $(document).click(function(event) {
+            $(document).on("click touchstart",function(event) {
                 if (!clicked) {
                     callback(parent, event);
                 }
                 if (destroy) {
                     //parent.clickOff = function() {};
-                    //parent.off("click");
-                    //$(document).off("click");
-                    //parent.off("clickOff");
                 };
                 clicked = false;
             });
@@ -140,6 +137,11 @@
             }
             
             
+        });
+        $('#overlay-region').on("click touchstart",function() {
+            $(".mega-menu-mobile .sub-menu").hide();
+            $(this).hide();
+            $(".mobile-menu-icon").removeClass('active');
         });
 
     });

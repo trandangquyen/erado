@@ -2822,6 +2822,9 @@ footer{
 /*-----------------------Begin media screen --------------------*/
 
 @media (max-width: 1023px) {
+    #left-sidebar-menu{
+        display: none;
+    }
     .feature-product-wrapp{
         a.wrapper-link{
             img{
@@ -3198,7 +3201,8 @@ footer{
         display: block;
     }
     .section8.store-news{
-        display: none;
+        display: block;
+        height: auto;
     }
     .section9.newsletter{
         height: initial;

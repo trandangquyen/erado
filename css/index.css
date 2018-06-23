@@ -1972,6 +1972,36 @@ ul.pagination {
     bottom: 0;
     left: 150px; }
 
+#left-sidebar-menu {
+  position: fixed;
+  top: 35%;
+  right: 0; }
+  #left-sidebar-menu li a {
+    display: block;
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #535353; }
+    #left-sidebar-menu li a:hover {
+      background-color: #f6504c; }
+    #left-sidebar-menu li a img {
+      height: 28px;
+      margin: 0 auto;
+      max-width: 28px;
+      height: auto;
+      display: block;
+      position: relative;
+      top: 5px; }
+  #left-sidebar-menu li.collapse a {
+    height: 28px;
+    background-color: #f6504c;
+    border-bottom: 1px solid #535353; }
+    #left-sidebar-menu li.collapse a img {
+      top: 9px; }
+  #left-sidebar-menu ul.active .sub-left-menu {
+    display: none; }
+
 #header .mega-menu-mobile .sub-menu {
   width: 250px;
   background: #fff;
@@ -2081,6 +2111,23 @@ ul.pagination {
     left: 0px; }
   .mobile-menu-icon.active ul li:nth-child(2) {
     display: none; }
+
+.tooltip {
+  display: none;
+  /* ADDED */
+  padding: 5px 10px;
+  background-color: #F6504C;
+  position: absolute;
+  z-index: 9999;
+  color: #fff;
+  font-size: 10px;
+  width: 100px;
+  min-height: 20px;
+  line-height: 20px;
+  text-align: center; }
+
+.tipBody {
+  background-color: #F6504C; }
 
 /*-----------------------Begin media screen --------------------*/
 @media (max-width: 1023px) {

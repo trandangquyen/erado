@@ -50,13 +50,53 @@
             drag: true
           });
     }
+    // Function to scroll to top on click arrow button event
+    function scrollTop() {
+        $(function() {
+            // scroll body to 0px on click
+            $('#scroll-top').click(function(e) {
+                e.preventDefault();
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+    }
+    function toggleMenuLeftSide(){
+        $('#collapse-left-menu').click(function(){
+            $(this).parent().toggleClass('active');
+        });
+    }
+    function showToolTipMenu(){
+        var tip;
+        $('a[title]').mouseover(function(e) {
+
+            tip = $(this).attr('title');
+            $(this).attr('title','');
+            $('.tooltip').show().children('.tipBody').html( tip );
+
+        }).mousemove(function(e) {
+
+            $('.tooltip').css('top', e.pageY + 10 );
+            $('.tooltip').css('left', e.pageX - 100 );
+
+        }).mouseout(function(e) {
+            $('.tooltip').hide();
+            $(this).attr( 'title', tip );
+        });
+        
+    }
     /* ----------------------------------------------- */
     /* ------------- FrontEnd Functions -------------- */
     /* ----------------------------------------------- */
 
     /* OnLoad Page */
     $(document).ready(function($) {
+        scrollTop();
         runSlider();
+        toggleMenuLeftSide();
+        showToolTipMenu();
             //  Function Click out site menu-> hide menu
 
         $.fn.clickOff = function(callback, selfDestroy) {
@@ -88,7 +128,7 @@
             $('#overlay-region').hide();
         });
         $(".mobile-menu-icon").click(function(e){
-             e.preventDefault();            
+            e.preventDefault();            
             if($(this).hasClass('active')){
                 $(".mega-menu-mobile .sub-menu").hide();
                 $('#overlay-region').hide();
@@ -104,9 +144,4 @@
 
     });
 
-    /* OnLoad Window */
-    var init = function() {
-
-    };
-    window.onload = init;
 })(jQuery);

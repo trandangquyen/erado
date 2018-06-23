@@ -2050,7 +2050,8 @@ ul.pagination {
 .mobile-menu-icon {
   height: 35px;
   width: 32px;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 3px; }
   .mobile-menu-icon ul {
     position: relative; }
     .mobile-menu-icon ul li {
@@ -2123,8 +2124,7 @@ ul.pagination {
     #header .main-search-box #search-product {
       width: 100%; }
   #header .mega-menu-mobile {
-    padding-left: 10px;
-    padding-top: 5px; }
+    padding-left: 10px; }
     #header .mega-menu-mobile .sub-menu {
       display: none; }
   #header .show-destop-screen {
@@ -2560,7 +2560,46 @@ ul.pagination {
   .product-detail-page .old-price {
     max-width: 122px; }
   .product-detail-page .product-description .tab-links {
-    display: none; }
+    display: block;
+    height: 60px; }
+    .product-detail-page .product-description .tab-links:before {
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: #D8D8D8;
+      top: 25px;
+      visibility: visible;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+    .product-detail-page .product-description .tab-links li {
+      height: 60px;
+      width: 20%;
+      text-indent: -999999px;
+      margin: 0;
+      background: transparent !important;
+      position: relative; }
+      .product-detail-page .product-description .tab-links li:before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        z-index: 19; }
+    .product-detail-page .product-description .tab-links .product-info:before {
+      background: url(../images/product-detail/d1.gif) left top no-repeat; }
+    .product-detail-page .product-description .tab-links .product-price:before {
+      background: url(../images/product-detail/d2.gif) left top no-repeat; }
+    .product-detail-page .product-description .tab-links .reason:before {
+      background: url(../images/product-detail/d3.gif) left top no-repeat; }
+    .product-detail-page .product-description .tab-links .promo:before {
+      background: url(../images/product-detail/d4.gif) left top no-repeat; }
+    .product-detail-page .product-description .tab-links .free-delivery:before {
+      background: url(../images/product-detail/d5.gif) left top no-repeat; }
   .product-detail-page .product-description .col-ssm-3 {
     display: none; }
 
@@ -2613,8 +2652,7 @@ ul.pagination {
     #header .main-search-box #search-product {
       width: 100%; }
   #header .mega-menu-mobile {
-    padding-left: 10px;
-    padding-top: 5px; }
+    padding-left: 10px; }
   #header .show-destop-screen {
     text-align: center; }
 

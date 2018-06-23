@@ -2715,6 +2715,7 @@ footer{
     height: 35px;
     width: 32px;
     display: inline-block;
+    padding-top: 3px;
     ul{ 
         position: relative;
         li{
@@ -2821,8 +2822,7 @@ footer{
             }
         }
         .mega-menu-mobile{
-            padding-left: 10px;
-            padding-top: 5px;            
+            padding-left: 10px;           
             .sub-menu{
                 display: none;
             }
@@ -3415,7 +3415,65 @@ footer{
         }
         .product-description{
             .tab-links{
-                display: none;
+                display: block;
+                height: 60px;
+                &:before{
+                    position: absolute;
+                    height: 1px;
+                    width: 100%;
+                    background: #D8D8D8;
+                    top: 25px;
+                    visibility: visible;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    
+                }
+                li{
+                    height: 60px;
+                    width: 20%;
+                    text-indent: -999999px;
+                    margin: 0;
+                    background: transparent !important;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: 0 auto;
+                        z-index: 19;
+                    }
+                }
+                .product-info{
+                    &:before{
+                        background: url(../images/product-detail/d1.gif) left top no-repeat; 
+                    }
+                }
+                .product-price{
+                    &:before{
+                        background: url(../images/product-detail/d2.gif) left top no-repeat; 
+                    }
+                }
+                .reason{
+                    &:before{
+                        background: url(../images/product-detail/d3.gif) left top no-repeat; 
+                    }
+                }
+                .promo{
+                    &:before{
+                        background: url(../images/product-detail/d4.gif) left top no-repeat; 
+                    }
+                }
+                .free-delivery{
+                    &:before{
+                        background: url(../images/product-detail/d5.gif) left top no-repeat; 
+                    }
+                }
             }
             .col-ssm-3{
                 display: none;
@@ -3496,7 +3554,6 @@ footer{
         }
         .mega-menu-mobile{
             padding-left: 10px;
-            padding-top: 5px;
         }
         .show-destop-screen{
             text-align: center;

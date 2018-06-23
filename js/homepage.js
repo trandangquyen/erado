@@ -57,6 +57,50 @@
     /* OnLoad Page */
     $(document).ready(function($) {
         runSlider();
+            //  Function Click out site menu-> hide menu
+
+        $.fn.clickOff = function(callback, selfDestroy) {
+            var clicked = false;
+            var parent = this;
+            var destroy = selfDestroy || true;
+
+            parent.click(function() {
+                clicked = true;
+            });
+
+            $(document).click(function(event) {
+                if (!clicked) {
+                    callback(parent, event);
+                }
+                if (destroy) {
+                    //parent.clickOff = function() {};
+                    //parent.off("click");
+                    //$(document).off("click");
+                    //parent.off("clickOff");
+                };
+                clicked = false;
+            });
+        };
+        
+        $(".mega-menu-mobile").clickOff(function() {
+            $(".mobile-menu-icon").removeClass('active');
+            $(".mega-menu-mobile .sub-menu").hide();
+            $('#overlay-region').hide();
+        });
+        $(".mobile-menu-icon").click(function(e){
+             e.preventDefault();            
+            if($(this).hasClass('active')){
+                $(".mega-menu-mobile .sub-menu").hide();
+                $('#overlay-region').hide();
+                $(this).removeClass('active');
+            }else{
+                $(this).addClass('active');
+                $(".mega-menu-mobile .sub-menu").show();
+                $('#overlay-region').show();
+            }
+            
+            
+        });
 
     });
 

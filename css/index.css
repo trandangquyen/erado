@@ -1967,6 +1967,115 @@ ul.pagination {
     bottom: 0;
     left: 150px; }
 
+#header .mega-menu-mobile .sub-menu {
+  width: 250px;
+  background: #fff;
+  position: relative;
+  left: -10px; }
+  #header .mega-menu-mobile .sub-menu li {
+    padding-left: 40px;
+    float: none;
+    position: relative; }
+    #header .mega-menu-mobile .sub-menu li:before {
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      content: '';
+      top: 8px;
+      left: 10px;
+      background-size: contain; }
+    #header .mega-menu-mobile .sub-menu li a {
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      font-size: 17px;
+      color: #3e3f31; }
+      #header .mega-menu-mobile .sub-menu li a:hover {
+        color: #ff0000; }
+  #header .mega-menu-mobile .sub-menu .user-register {
+    padding: 0 10px;
+    height: 85px;
+    background: #414143;
+    padding-top: 55px; }
+    #header .mega-menu-mobile .sub-menu .user-register a {
+      height: 22px;
+      line-height: 22px;
+      display: inline-block;
+      font-size: 14px;
+      color: #fff;
+      width: 50%; }
+      #header .mega-menu-mobile .sub-menu .user-register a:last-child {
+        padding-left: 10px; }
+    #header .mega-menu-mobile .sub-menu .user-register:before {
+      height: 40px;
+      width: 40px;
+      top: 5px !important; }
+#header .mega-menu-mobile .home-link:before {
+  background: url(../images/mobile-menu/home.png) left top no-repeat; }
+#header .mega-menu-mobile .special-subject-link:before {
+  position: absolute;
+  background: url(../images/mobile-menu/m376.png) left top no-repeat; }
+#header .mega-menu-mobile .chairs-link:before {
+  background: url(../images/mobile-menu/m243.png) left top no-repeat; }
+#header .mega-menu-mobile .furniture-link:before {
+  background: url(../images/mobile-menu/m256.png) left top no-repeat; }
+#header .mega-menu-mobile .special-link:before {
+  background: url(../images/mobile-menu/m360.png) left top no-repeat; }
+#header .mega-menu-mobile .bed-link:before {
+  background: url(../images/mobile-menu/m457.png) left top no-repeat; }
+#header .mega-menu-mobile .decor-link:before {
+  background: url(../images/mobile-menu/m257.png) left top no-repeat; }
+#header .mega-menu-mobile .decorating-goods-link:before {
+  background: url(../images/mobile-menu/m342.png) left top no-repeat; }
+#header .mega-menu-mobile .carpet-link:before {
+  background: url(../images/mobile-menu/m412.png) left top no-repeat; }
+#header .mega-menu-mobile .promotion-link:before {
+  background: url(../images/mobile-menu/m428.png) left top no-repeat; }
+#header .mega-menu-mobile .video-link:before {
+  background: url(../images/mobile-menu/m449.png) left top no-repeat;
+  top: 12px !important; }
+#header .mega-menu-mobile .user-register:before {
+  background: url(../images/mobile-menu/ia.gif) left top no-repeat;
+  top: 12px !important; }
+
+#overlay-region {
+  z-index: 997;
+  width: 100%;
+  height: 100%;
+  display: none;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed; }
+
+.mobile-menu-icon {
+  height: 35px;
+  width: 32px;
+  display: inline-block; }
+  .mobile-menu-icon ul {
+    position: relative; }
+    .mobile-menu-icon ul li {
+      float: none;
+      margin: 3px auto;
+      width: 28px;
+      height: 2px;
+      background: #222222;
+      border-radius: 20px; }
+
+.mobile-menu-icon.active ul li {
+  transition: all ease-out 0.15s; }
+  .mobile-menu-icon.active ul li:first-child {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 11px;
+    left: 0px; }
+  .mobile-menu-icon.active ul li:last-child {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 11px;
+    left: 0px; }
+  .mobile-menu-icon.active ul li:nth-child(2) {
+    display: none; }
+
 /*-----------------------Begin media screen --------------------*/
 @media (max-width: 1023px) {
   .feature-product-wrapp a.wrapper-link img {
@@ -2016,6 +2125,8 @@ ul.pagination {
   #header .mega-menu-mobile {
     padding-left: 10px;
     padding-top: 5px; }
+    #header .mega-menu-mobile .sub-menu {
+      display: none; }
   #header .show-destop-screen {
     text-align: center; }
   #header .mobile-top-hotline {

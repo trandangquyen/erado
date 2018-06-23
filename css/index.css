@@ -1546,7 +1546,7 @@ footer {
       display: none; }
     .product-detail-page .product-description .tab-contents > li.show {
       display: block; }
-  .product-detail-page .product-description .col-ssm-3 {
+  .product-detail-page .product-description .col-md-3 {
     padding-left: 20px; }
   .product-detail-page .product-description .schedule {
     overflow: hidden;
@@ -2575,10 +2575,17 @@ ul.pagination {
     .product-detail-page .product-description .tab-links li {
       height: 60px;
       width: 20%;
-      text-indent: -999999px;
       margin: 0;
       background: transparent !important;
-      position: relative; }
+      position: relative;
+      color: #000;
+      font-size: 10px;
+      text-transform: none;
+      font-weight: 600;
+      padding-top: 54px;
+      line-height: 16px;
+      text-align: center;
+      margin-bottom: 23px; }
       .product-detail-page .product-description .tab-links li:before {
         content: '';
         width: 50px;
@@ -2600,8 +2607,33 @@ ul.pagination {
       background: url(../images/product-detail/d4.gif) left top no-repeat; }
     .product-detail-page .product-description .tab-links .free-delivery:before {
       background: url(../images/product-detail/d5.gif) left top no-repeat; }
-  .product-detail-page .product-description .col-ssm-3 {
+  .product-detail-page .product-description .col-md-3 {
     display: none; }
+  .product-detail-page .product-description .tab-contents {
+    border: none; }
+    .product-detail-page .product-description .tab-contents h3.mobile-tab-title {
+      font-size: 20px;
+      color: #000;
+      text-transform: uppercase;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      position: relative; }
+      .product-detail-page .product-description .tab-contents h3.mobile-tab-title:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
+        background: #E5E5E7;
+        bottom: -5px;
+        left: 0; }
+      .product-detail-page .product-description .tab-contents h3.mobile-tab-title:after {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 1.5px;
+        background: #ED4137;
+        bottom: -5px;
+        left: 0; }
 
   .listing-page-wrapper .col-left-pr {
     display: none; }

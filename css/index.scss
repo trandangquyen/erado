@@ -2040,7 +2040,7 @@ footer{
                 display: block;
             }
         }
-        .col-ssm-3{
+        .col-md-3{
             padding-left: 20px;
         }
         .schedule{
@@ -3432,10 +3432,17 @@ footer{
                 li{
                     height: 60px;
                     width: 20%;
-                    text-indent: -999999px;
                     margin: 0;
                     background: transparent !important;
                     position: relative;
+                    color: #000;
+                    font-size: 10px;
+                    text-transform: none;
+                    font-weight: 600;
+                    padding-top: 54px;
+                    line-height: 16px;
+                    text-align: center;
+                    margin-bottom: 23px;
                     &:before{
                         content: '';
                         width: 50px;
@@ -3475,8 +3482,37 @@ footer{
                     }
                 }
             }
-            .col-ssm-3{
+            .col-md-3{
                 display: none;
+            }
+            .tab-contents{
+              border: none;
+                h3.mobile-tab-title{
+                    font-size: 20px;
+                    color: #000;
+                    text-transform: uppercase;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 1.5px;
+                        background: #E5E5E7;
+                        bottom: -5px;
+                        left: 0;
+                    }
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        width: 100px;
+                        height: 1.5px;
+                        background: #ED4137;
+                        bottom: -5px;
+                        left: 0;
+                    }
+                }
             }
         }
         

@@ -80,7 +80,7 @@ a {
 	.facebook-like{
 		padding-top: 5px
 	}
-	.sell-with-erado{
+	.sell-with-us{
 		float: right;
 	    line-height: 31px;
 	    font-weight: bold;
@@ -109,7 +109,7 @@ a {
 		    bottom: -70px;
 		}
 	}
-	.erado-logo{
+	.shop-logo{
 		padding-top: 20px;
 	}
 	.main-search-box{
@@ -323,7 +323,7 @@ a {
 	}
 }
 
-.erado-services{
+.store-services{
 	height: 400px;
     overflow: hidden;
     background: url(../images/cl.png) no-repeat left top ,url(../images/cr.png) no-repeat right top;
@@ -336,7 +336,7 @@ a {
 	    font-weight: bold;
 	    color: #ed4135;
 	}
-	.erado-why-choose{
+	.why-choose-us{
 		text-align: center;
 		font-size: 23px;
 		position: relative;
@@ -377,7 +377,7 @@ a {
 		    top: 100px;
 		}
 	}
-	.erado-services-content{
+	.store-services-content{
 		padding-top: 79px;
 		.phy-facilities{
 			background: url(../images/h1.png) no-repeat center top;
@@ -950,7 +950,7 @@ figure.banner-middle{
     	}
     }
 }
-.section8.erado-news{
+.section8.store-news{
 	background-color: #fff;
     height: 239px;
     overflow: hidden;
@@ -964,7 +964,7 @@ figure.banner-middle{
     .news-summary{
     	text-align: justify;
     }
-    .erado-news-title{
+    .store-news-title{
     	color: #3e3e3e;
 	    padding-left: 30px;
         font-size: 18px;
@@ -1090,13 +1090,13 @@ footer{
 	    	background: #ED4135;
 	    }
 	}
-	.about-erado-cont,.about-buyers,.company-addresses{
+	.about-store-cont,.about-buyers,.company-addresses{
 		padding: 20px;
 	}
 	.for-buyers{
 		padding-left: 20px;
 	}
-	.about-erado-cont{
+	.about-store-cont{
 	    height: 310px;
 	    background: url(../images/ft.png) no-repeat 5px bottom,url(../images/logof.png) no-repeat 140px 223px,url(../images/bff.gif) repeat-x left top;
 	    border-bottom: 2px solid #ED4137;
@@ -1147,7 +1147,7 @@ footer{
 	}
 	.support-phone.authentication{
 		padding-top: 40px;
-		.call-to-erado{
+		.call-to-us{
 		    font-size: 12px;
 		    font-weight: 600;
 		    margin-bottom: 10px;
@@ -2039,6 +2039,9 @@ footer{
             >li.show{
                 display: block;
             }
+            .mobile-tab-title{
+                display: none;
+            }
         }
         .col-md-3{
             padding-left: 20px;
@@ -2777,7 +2780,7 @@ footer{
             height: auto;
             background: #fff;
         }
-        .erado-support{
+        .store-support{
             .hotline-num,.hotline-title{
                 display: none;
             }
@@ -2800,7 +2803,7 @@ footer{
             width: 100%;
             background: #fff;
             height: 50px;
-             .erado-logo {
+             .shop-logo {
                  padding-top: 0;
                 img{
                     height: 25px;
@@ -3050,7 +3053,7 @@ footer{
             margin-bottom: 7px;
         }
     }
-    .section-2.erado-services{
+    .section-2.store-services{
         display: none;
     }
     .hot-product-title{
@@ -3091,7 +3094,7 @@ footer{
     {
         display: none;
     }
-    .mobile-erado-connect{
+    .store-connect-mobile{
         font-size: 18px;
         text-transform: uppercase;
         color: #000;
@@ -3126,10 +3129,10 @@ footer{
         }
         
     }
-    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.mobile-erado-connect{
+    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.store-connect-mobile{
         display: block;
     }
-    .section8.erado-news{
+    .section8.store-news{
         display: none;
     }
     .section9.newsletter{
@@ -3173,7 +3176,7 @@ footer{
             height: initial;
             background: #4A4D52;
         }
-        .about-erado-cont{
+        .about-store-cont{
             display: none;
         }
         .about-buyers{
@@ -3438,11 +3441,13 @@ footer{
                     color: #000;
                     font-size: 10px;
                     text-transform: none;
-                    font-weight: 600;
-                    padding-top: 54px;
+                    font-weight: 600;                    
                     line-height: 16px;
                     text-align: center;
                     margin-bottom: 23px;
+                    padding-top: 54px;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
                     &:before{
                         content: '';
                         width: 50px;
@@ -3486,7 +3491,10 @@ footer{
                 display: none;
             }
             .tab-contents{
-              border: none;
+                border: none;
+                .mobile-tab-title{
+                    display: block;
+                }
                 h3.mobile-tab-title{
                     font-size: 20px;
                     color: #000;
@@ -3567,7 +3575,7 @@ footer{
             width: 100%;
             background: #fff;
             height: 50px;
-             .erado-logo {
+             .shop-logo {
                  padding-top: 0;
                 img{
                     height: 25px;
@@ -3783,7 +3791,7 @@ footer{
             margin-bottom: 7px;
         }
     }
-    .section-2.erado-services{
+    .section-2.store-services{
         display: none;
     }
     .hot-product-title{
@@ -3824,7 +3832,7 @@ footer{
     {
         display: none;
     }
-    .mobile-erado-connect{
+    .store-connect-mobile{
         font-size: 18px;
         text-transform: uppercase;
         color: #000;
@@ -3859,7 +3867,7 @@ footer{
         }
         
     }
-    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.mobile-erado-connect{
+    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.store-connect-mobile{
         display: block;
     }
     .feature-product-wrapp{
@@ -4009,7 +4017,7 @@ footer{
     .mobile-quick-menu{
         display: none;
     }
-    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.mobile-erado-connect{
+    .menu-mobile-wrapper,.search-box-mobile,.banner-hotproduct,.fb-page.fb_iframe_widget,.store-connect-mobile{
         display: none;
     }
     .section9.newsletter{

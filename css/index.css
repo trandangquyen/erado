@@ -137,6 +137,9 @@ a {
         color: #ff0000; }
     #header .main-magemenu ul.cont-megamenu > li:hover .sub-menu {
       display: block; }
+    #header .main-magemenu ul.cont-megamenu li.hot-deal {
+      background: url(../images/i.png) no-repeat 8px 8px;
+      padding-left: 15px; }
     #header .main-magemenu ul.cont-megamenu .homepage {
       background: #eb1c24; }
       #header .main-magemenu ul.cont-megamenu .homepage > a {
